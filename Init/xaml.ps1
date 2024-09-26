@@ -102,6 +102,7 @@ try {
             "de" { $locale = "de" }
             "ru" { $locale = "ru" }
             "es" { $locale = "es" }
+            "it" { $locale = "it" }
             default { $locale = "en" }
         }
         $itt["window"].DataContext = $itt.database.locales.Controls.$locale
